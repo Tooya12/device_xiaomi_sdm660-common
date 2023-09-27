@@ -117,6 +117,7 @@ on property:vendor.usb.controller=*
 
     # Touchpanel
     chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
 
 #Peripheral manager
 service vendor.per_mgr /system/vendor/bin/pm-service
